@@ -1,0 +1,44 @@
+# Archivos compilados y objetos
+*.o
+*.a
+*.so
+*.lo
+*.la
+*.ko
+*.elf
+*.bin
+
+# Directorios de compilación
+/build/
+/build-*/
+
+# Archivos temporales de editor
+*~
+*.swp
+*.swo
+.*.swp
+
+# Logs masivos
+*.log
+*.out
+
+# Directorio de montaje de LFS (NUNCA subas el sistema compilado)
+/mnt/lfs/
+/lfs/
+
+# Archivos comprimidos de paquetes
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+*.tgz
+*.zip
+
+# Directorios de Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Archivos de Windows
+.DS_Store
+Thumbs.db
